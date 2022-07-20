@@ -1,5 +1,4 @@
-mode: ContinuousDeployment
-continuous-delivery-fallback-tag: ''
+mode: Mainline
 branches:
   main:
     regex: ^master$|^main$|^prod$
