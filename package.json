@@ -1,0 +1,8 @@
+{
+  "name": "gitversion-test",
+  "version": "0.0.1",
+  "description": "git version test",
+  "main": "index.js",
+  "author": "Larry Zhao",
+  "license": "MIT"
+}
