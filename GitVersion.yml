@@ -1,5 +1,9 @@
 mode: ContinuousDeployment
-branches: {}
+branches:
+  main:
+    regex: ^master$|^main$|^prod$
+  release:
+    regex: ^releases?[/-]|^qa$
 ignore:
   sha: []
 merge-message-formats: {}
